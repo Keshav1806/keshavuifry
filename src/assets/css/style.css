@@ -1,0 +1,1001 @@
+button {
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
+.nav {
+    padding: 2.3rem 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.navlinks {
+    display: flex;
+    gap: 3.5rem;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 2.2rem;
+    z-index: 100;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.2s;
+}
+
+.links a:hover {
+    color: red;
+}
+
+.navlinks img {
+    width: 8rem;
+}
+
+.icons button {
+    width: 9rem;
+    height: 2.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.icons button:hover {
+    transform: scale(1.1);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.downicon {
+    font-size: 1.3rem;
+    display: none;
+    color: black;
+}
+
+.home {
+    display: flex;
+    height: 83.8vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+    padding-right: 5%;
+}
+
+.homeleft {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.heading {
+    position: relative;
+}
+
+.blur {
+    position: absolute;
+    z-index: -1;
+    height: 9rem;
+    width: 35%;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, red 65%, yellow 40%);
+    filter: blur(38px);
+    top: 10%;
+    right: 20%;
+}
+
+.homeleft h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.homeleft p {
+    line-height: 1.4rem;
+    margin-bottom: 0.3rem;
+}
+
+.homeleft img {
+    width: 30rem;
+}
+
+.start {
+    display: flex;
+    gap: 1rem;
+}
+
+.start button {
+    width: 9rem;
+    height: 2.7rem;
+    display: flex;
+    gap: 0.6rem;
+    border-radius: 4px;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.start .started {
+    background-color: black;
+    color: white;
+    transition: transform 0.3s ease;
+}
+
+.started .fa-arrow-right {
+    transition: transform 0.3s ease;
+}
+
+.started:hover {
+    transform: scale(1.1);
+}
+
+.started:hover .fa-arrow-right {
+    transform: translateX(6px);
+}
+
+.homeright {
+    width: 48%;
+    position: relative;
+    text-align: center;
+}
+
+.blur2 {
+    background-color: red;
+    height: 10rem;
+    width: 40%;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+    bottom: 10%;
+    left: 20%;
+    filter: blur(40px);
+}
+
+.homeright img {
+    width: 33rem;
+}
+
+.video {
+    display: inline-flex;
+    align-items: center;
+    transition: transform 0.3s ease;
+}
+
+.video .fa-circle-play {
+    transition: transform 0.3s ease;
+}
+
+.video:hover {
+    transform: scale(1.1);
+}
+
+.video:hover .fa-circle-play {
+    transform: rotate(360deg);
+}
+
+.about {
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    overflow: hidden;
+}
+
+#about1 {
+    padding-top: 3.5rem;
+}
+
+.aboutleft {
+    width: 48%;
+    position: relative;
+}
+
+.aboutright {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    justify-content: center;
+    position: relative;
+}
+
+.blur3 {
+    width: 60%;
+    height: 14rem;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    background: linear-gradient(to bottom, yellow 40%, red 30%);
+    filter: blur(45px);
+    top: 15%;
+    left: 12%;
+    z-index: -1;
+}
+
+.blur4 {
+    width: 55%;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    background: linear-gradient(to bottom, red 60%, yellow 40%);
+    filter: blur(45px);
+    top: 15%;
+    left: 100%;
+    z-index: -1;
+}
+
+.blur5 {
+    width: 55%;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    position: absolute;
+    background: linear-gradient(to bottom, red 60%, yellow 40%);
+    filter: blur(45px);
+    top: -10%;
+    right: 100%;
+    z-index: -1;
+}
+
+.aboutright h1 {
+    font-size: 2.5rem;
+}
+
+.supertxt {
+    color: red;
+    margin-bottom: -1.5rem;
+}
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.feature h3 {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.feature p {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+.aboutleft img {
+    width: 32rem;
+}
+
+.review {
+    padding: 3rem 10%;
+}
+
+.reviewtop {
+    text-align: center;
+    margin-bottom: 1.7rem;
+}
+
+.reviewtop h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.reviewtop p {
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+.reviewbot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.reviewleft {
+    width: 48%;
+    position: relative;
+}
+
+.blur6 {
+    width: 50%;
+    height: 12rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, red 60%, yellow 40%);
+    filter: blur(45px);
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    z-index: -1;
+}
+
+.reviewleft img {
+    width: 35rem;
+}
+
+.reviewright {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.review1 h2 {
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+.review1 p {
+    color: rgb(95, 93, 93);
+    line-height: 1.5rem;
+    margin-bottom: 0.3rem;
+}
+
+.people {
+    display: flex;
+    gap: 0.6rem;
+}
+
+.people img {
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    opacity: 50%;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.faq {
+    padding: 2rem 10%;
+}
+
+.faq p {
+    color: red;
+    margin-bottom: 0.2rem;
+    font-weight: 500;
+}
+
+.faq h1 {
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.faqcont {
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.faqitem{
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+}
+.faqitem h2{
+    font-size: 1.6rem;
+    margin-bottom: 0.6rem;
+}
+.faqitem p{
+    color: rgb(94, 94, 94);
+    word-spacing: 0.3rem;
+}
+.faqitem.red{
+    background-color: red;
+    color: white;
+}
+.faqitem.white{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.faqitem.red p{
+    color: white;
+}
+.banner{
+    padding: 7rem 10%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    border-radius: 20px;
+}
+.banner .blur7{
+    width: 20%;
+    height: 12rem;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, red 60%, yellow 40%);
+    filter: blur(40px);
+    position: absolute;
+    top: 6%;
+    left: 4%;
+    z-index: -1;
+}
+.foot{
+    padding: 0 10%;
+}
+.foottop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    margin-bottom: 3rem;
+    gap: 1.5rem;
+}
+.footlinks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.footlinks p{
+    font-weight: 500;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+.footlinks p:hover{
+    color: red;
+}
+.footlinks h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.footlinks img{
+    width: 7rem;
+}
+.footbot{
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+}
+.news{
+    display: flex;
+}
+.news input{
+    padding: 1rem 1rem;
+    width: 11rem;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.news button{
+    padding: 0 1.5rem;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+}
+/* ------------Media Queries-------------- */
+@media(max-width: 1275px) {
+    .home {
+        padding: 0 8%;
+        padding-right: 5%;
+    }
+
+    .homeleft {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .heading {
+        position: relative;
+    }
+
+    .blur {
+        position: absolute;
+        z-index: -1;
+        height: 8rem;
+        width: 30%;
+        border-radius: 50%;
+        background: linear-gradient(to bottom, red 65%, yellow 40%);
+        filter: blur(38px);
+        top: 10%;
+        right: 20%;
+    }
+
+    .homeleft h1 {
+        font-size: 2.4rem;
+        line-height: 2.8rem;
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .homeleft p {
+        line-height: 1.4rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .homeleft img {
+        width: 27rem;
+    }
+
+    .start {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .start button {
+        width: 9rem;
+        height: 2.7rem;
+        display: flex;
+        gap: 0.6rem;
+        border-radius: 4px;
+        border: none;
+        background-color: white;
+        font-weight: 500;
+        font-size: 0.9rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .start .started {
+        background-color: black;
+        color: white;
+    }
+
+    .homeright {
+        width: 48%;
+        position: relative;
+    }
+
+    .blur2 {
+        background-color: red;
+        height: 10rem;
+        width: 40%;
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        bottom: 10%;
+        left: 20%;
+        filter: blur(40px);
+    }
+
+    .homeright img {
+        width: 30rem;
+    }
+
+    .aboutleft img {
+        width: 27rem;
+    }
+
+    .reviewleft img {
+        width: 30rem;
+    }
+}
+
+@media(max-width:1154px) {
+    .homeright img {
+        width: 25rem;
+    }
+
+    .homeleft img {
+        width: 23rem;
+    }
+
+    .homeleft h1 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+        margin-bottom: 0rem;
+        margin-top: 0;
+    }
+
+    .homeleft p {
+        line-height: 1.4rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .start button {
+        width: 7rem;
+        height: 2.4rem;
+        display: flex;
+        gap: 0.4rem;
+        border-radius: 4px;
+        border: none;
+        background-color: white;
+        font-weight: 500;
+        font-size: 0.75rem;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 1060px) {
+    .aboutright {
+        width: 48%;
+        display: flex;
+        flex-direction: column;
+        gap: 1.3rem;
+        justify-content: center;
+        position: relative;
+    }
+
+    .aboutright h1 {
+        font-size: 2rem;
+    }
+
+    .supertxt {
+        color: red;
+        margin-bottom: -1rem;
+    }
+
+    .feature {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .feature h3 {
+        display: flex;
+        gap: 0.6rem;
+        align-items: center;
+        font-size: 1rem;
+    }
+
+    .feature p {
+        font-size: 0.8rem;
+    }
+
+    .aboutleft img {
+        width: 23rem;
+    }
+
+    .review {
+        padding: 2rem 7%;
+    }
+
+    .reviewleft img {
+        width: 25rem;
+    }
+
+    .blur6 {
+        width: 35%;
+        height: 11rem;
+        left: 20%;
+        filter: blur(35px);
+    }
+}
+
+@media(max-width: 888px) {
+    .icons button {
+        display: none;
+    }
+
+    .downicon {
+        display: block;
+    }
+
+    .nav {
+        padding: 1.5rem 7%;
+    }
+
+    .links {
+        position: absolute;
+        flex-direction: column;
+        top: 100%;
+        right: 0;
+        text-align: center;
+        padding: 2rem 4rem;
+        transform: scaleX(0);
+        height: 100vh;
+        box-shadow: -1px -1px 8px rgba(0, 0, 0, 0.1);
+        transform-origin: right;
+        transition: all 0.3s;
+        background-color: white;
+        gap: 3rem;
+    }
+
+    .links.active {
+        transform: scaleX(1);
+    }
+
+    .homeright img {
+        width: 22rem;
+    }
+
+    .homeleft img {
+        display: none;
+    }
+
+    .homeleft h1 {
+        font-size: 1.7rem;
+        line-height: 2.5rem;
+        margin-bottom: 0rem;
+        margin-top: 0;
+    }
+
+    .homeleft p {
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .start button {
+        width: 7rem;
+        height: 2rem;
+        display: flex;
+        gap: 0.4rem;
+        border-radius: 4px;
+        border: none;
+        background-color: white;
+        font-weight: 500;
+        font-size: 0.7rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blur2 {
+        background-color: red;
+        height: 7rem;
+        width: 35%;
+        position: absolute;
+        z-index: -1;
+        border-radius: 50%;
+        bottom: 10%;
+        left: 20%;
+        filter: blur(40px);
+    }
+
+    .blur {
+        position: absolute;
+        z-index: -1;
+        height: 6rem;
+        width: 30%;
+        border-radius: 50%;
+        background: linear-gradient(to bottom, red 65%, yellow 40%);
+        filter: blur(30px);
+        top: 0%;
+        right: 20%;
+    }
+
+    .about {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 8%;
+    }
+
+    .about.opp {
+        flex-direction: column-reverse;
+    }
+
+    .aboutleft {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutright {
+        width: 100%;
+    }
+
+    .blur3 {
+        width: 40%;
+        height: 12rem;
+        border-radius: 50%;
+        background-color: antiquewhite;
+        position: absolute;
+        background: linear-gradient(to bottom, yellow 40%, red 30%);
+        filter: blur(45px);
+        top: 15%;
+        left: 30%;
+        z-index: -1;
+    }
+
+    .reviewright h2 {
+        font-size: 1.5rem;
+    }
+
+    .reviewright p {
+        font-size: 0.8rem;
+        line-height: 1.4rem;
+    }
+
+    .reviewleft img {
+        width: 22rem;
+    }
+    .banner{
+        padding: 3.5rem 10%;
+        position: relative;
+    }
+    .banner img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .banner .blur7{
+        width: 20%;
+        height: 9rem;
+        border-radius: 50%;
+        background: linear-gradient(to bottom, red 60%, yellow 40%);
+        filter: blur(40px);
+        position: absolute;
+        top: 6%;
+        left: 4%;
+        z-index: -1;
+    }
+}
+@media(max-width:838px) {
+    .faqcont{
+        grid-template-columns: 1fr;
+    }
+    
+}
+@media(max-width:752px) {
+    .homeright {
+        display: none;
+    }
+
+    .homeleft {
+        width: 75%;
+        gap: 1.5rem;
+    }
+
+    .home {
+        justify-content: center;
+        text-align: center;
+        padding: 0;
+    }
+
+    .start {
+        justify-content: space-around;
+    }
+
+    .homeleft h1 {
+        font-size: 2.9rem;
+        line-height: 3.5rem;
+        margin-bottom: 0rem;
+        margin-top: 0;
+    }
+
+    .homeleft p {
+        font-size: 1.1rem;
+        line-height: 1.6rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .start button {
+        width: 8rem;
+        height: 2.5rem;
+        display: flex;
+        gap: 0.4rem;
+        border-radius: 4px;
+        border: none;
+        background-color: white;
+        font-weight: 500;
+        font-size: 0.7rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .review1 {
+        text-align: center;
+    }
+
+    .reviewleft {
+        display: none;
+    }
+
+    .reviewright {
+        width: 80%;
+    }
+
+    .people {
+        justify-content: center;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .reviewbot {
+        justify-content: center;
+    }
+}
+@media(max-width:614px) {
+    .banner{
+        padding: 1.5rem 10%;
+        position: relative;
+    }
+    .banner img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    .banner .blur7{
+        width: 20%;
+        height: 6rem;
+        border-radius: 50%;
+        background: linear-gradient(to bottom, red 60%, yellow 40%);
+        filter: blur(30px);
+        position: absolute;
+        top: 6%;
+        left: 4%;
+        z-index: -1;
+    }
+    .foot{
+        padding: 1.5rem 10%;
+    }
+}
+@media(max-width:508px) {
+    .homeleft h1 {
+        font-size: 2.6rem;
+        line-height: 3.3rem;
+        margin-bottom: 0rem;
+        margin-top: 0;
+    }
+
+    .homeleft p {
+        font-size: 1rem;
+        line-height: 1.6rem;
+        margin-bottom: 0.3rem;
+    }
+
+    .homeleft {
+        width: 75%;
+        gap: 1.3rem;
+    }
+
+    .aboutleft img {
+        width: 20rem;
+    }
+
+    .reviewtop {
+        margin-bottom: 1.3rem;
+    }
+
+    .reviewtop h1 {
+        font-size: 2rem;
+    }
+
+    .review1 h2 {
+        font-size: 1.3rem;
+    }
+    .faq h1{
+        font-size: 2rem;
+    }
+    .faqitem{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+    }
+    .faqitem p{
+        display: none;
+    }
+    .faqitem h2{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}
+@media(max-width:471px) {
+    .foottop{
+        justify-content: space-around;
+        gap: 2rem;
+    }
+    .footlinks{
+        align-items: center;
+    }
+}
